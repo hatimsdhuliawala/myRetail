@@ -337,7 +337,7 @@ const DefaultState = {
          datePosted: 'Sun Jan 12 17:41:43 UTC 2014',
          helpfulVotes: '4',
          overallRating: '5',
-         review: 'I have to assume that the negative reviewers received an unfortunate &quot;lemon&quot; blender... that, or they didn&#39;t read the instruction manual, because I love my Ninja and definitely recommend it.\n\nI&#39;ve had this blender for over a year and it still works as wonderfully as the day I bought it. I use it primarily for making smoothies, everything from green monsters to peanut butter protein shakes to frozen fruit &amp; yogurt smoothies with chia seeds on top.\n\nIt&#39;s like having Jamba Juice in my kitchen, but without the long line of snap-chatting teenagers.\n\nI frequently use the to-go cups to blend and take with me in the car. If you are in the camp lamenting that it doesn&#39;t hold enough, you probably also expect that once blended, it will be as full as you originally (over)stuffed it.\n\nRespect the max fill line, people, or use the full-size blender if you are going for NYC Big Gulp size.\n\nI will say, that if you are looking to seriously juice, this is not the blender for you. \n\nIt might take a little experimentation to get the right ratio of liquid to solid\/frozen for a perfectly smooth blend, but once you figure out what works for you, it&#39;s easy!',
+         review: 'I have to assume that the negative reviewers received an unfortunate &quot;lemon&quot; blender... that, or they didn&#39;t read the instruction manual, because I love my Ninja and definitely recommend it.\n\nI&#39;ve had this blender for over a year and it still works as wonderfully as the day I bought it. I use it primarily for making smoothies, everything from green monsters to peanut butter protein shakes to frozen fruit &amp; yogurt smoothies with chia seeds on top.\n\nIt&#39;s like having Jamba Juice in my kitchen, but without the long line of snap-chatting teenagers.\n\nI frequently use the to-go cups to blend and take with me in the car. If you are in the camp lamenting that it doesn&#39;t hold enough, you probably also expect that once blended, it will be as full as you originally (over)stuffed it.\n\nRespect the max fill line, people, or use the full-size blender if you are going for NYC Big Gulp size.\n\nI will say, that if you are looking to seriously juice, this is not the blender for you. \n\nIt might take a little experimentation to get the right ratio of liquid to solid/frozen for a perfectly smooth blend, but once you figure out what works for you, it&#39;s easy!',
          reviewKey: '9e0322d2-256e-46a5-80dc-b4468e58359b',
          screenName: 'Kari',
          state: 'MN',
@@ -418,30 +418,30 @@ const DefaultState = {
       {
        AlternateImages: [
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt01',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt01',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt02',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt02',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt03',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt03',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt04',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt04',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt05',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt05',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt06',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt06',
         },
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758_Alt07',
+         image: 'http://target.scene7.com/is/image/Target/14263758_Alt07',
         },
        ],
        PrimaryImage: [
         {
-         image: 'http:\/\/target.scene7.com\/is\/image\/Target\/14263758',
+         image: 'http://target.scene7.com/is/image/Target/14263758',
         },
        ],
 
@@ -452,16 +452,16 @@ const DefaultState = {
      ItemDescription: [
       {
        features: [
-        '<strong>Wattage Output:<\/strong> 1100 Watts',
-        '<strong>Number of Speeds:<\/strong> 3 ',
-        '<strong>Capacity (volume):<\/strong> 72.0 Oz.',
-        '<strong>Appliance Capabilities:<\/strong> Blends',
-        '<strong>Includes:<\/strong> Travel Lid',
-        '<strong>Material:<\/strong> Plastic',
-        '<strong>Finish:<\/strong> Painted',
-        '<strong>Metal Finish:<\/strong> Chrome',
-        '<strong>Safety and Security Features:<\/strong> Non-Slip Base',
-        '<strong>Care and Cleaning:<\/strong> Easy-To-Clean, Dishwasher Safe Parts',
+        '<strong>Wattage Output:</strong> 1100 Watts',
+        '<strong>Number of Speeds:</strong> 3 ',
+        '<strong>Capacity (volume):</strong> 72.0 Oz.',
+        '<strong>Appliance Capabilities:</strong> Blends',
+        '<strong>Includes:</strong> Travel Lid',
+        '<strong>Material:</strong> Plastic',
+        '<strong>Finish:</strong> Painted',
+        '<strong>Metal Finish:</strong> Chrome',
+        '<strong>Safety and Security Features:</strong> Non-Slip Base',
+        '<strong>Care and Cleaning:</strong> Easy-To-Clean, Dishwasher Safe Parts',
         ],
       },
      ],
@@ -504,7 +504,7 @@ const DefaultState = {
       {
        Description: [
         {
-         legalDisclaimer: 'Offer available online only. Offer applies to purchases of $50 or more of eligible items across all categories. Look for the &quot;SPEND $50: SHIPS FREE&quot; logo on eligible items. Some exclusions apply. Items that are not eligible are subject to shipping charges. $50 purchase is based on eligible merchandise subtotal. Items that are not eligible, GiftCards, e-GiftCards, gift wrap, tax and shipping and handling charges will not be included in determining merchandise subtotal. Offer valid for orders shipping within the 48 contiguous states, as well as APO\/FPO and for Standard and To the Door shipping methods only. Not valid on previous orders.',
+         legalDisclaimer: 'Offer available online only. Offer applies to purchases of $50 or more of eligible items across all categories. Look for the &quot;SPEND $50: SHIPS FREE&quot; logo on eligible items. Some exclusions apply. Items that are not eligible are subject to shipping charges. $50 purchase is based on eligible merchandise subtotal. Items that are not eligible, GiftCards, e-GiftCards, gift wrap, tax and shipping and handling charges will not be included in determining merchandise subtotal. Offer valid for orders shipping within the 48 contiguous states, as well as APO/FPO and for Standard and To the Door shipping methods only. Not valid on previous orders.',
          shortDescription: 'SPEND $50, GET FREE SHIPPING',
         }
        ],
@@ -516,7 +516,7 @@ const DefaultState = {
       {
        Description: [
         {
-         legalDisclaimer: 'Receive a $25 gift card when you buy a Ninja Professional Blender with single serve blending cups or a Ninja MEGA Kitchen System. Not valid on previous orders. On your order summary, the item subtotal will reflect the price of the qualifying item plus the amount of the free gift card, followed by a discount given for the amount of the free gift card. &nbsp;Your price on the order summary will be the price of the qualifying item (the total charges for the qualifying item and gift card). &nbsp;Your account will actually be charged the amount of the qualifying item reduced by the amount of the gift card, and a separate charge for the amount of the gift card. The gift card will be sent to the same address as your order and will ship separately. If you want to return the item you purchased to a Target Store, you may either keep the gift card and just return the qualifying item (you will be refunded the amount of the qualifying item reduced by the amount of the gift card), or you can return the qualifying item and the gift card &nbsp;for a full refund using the online receipt. If you return the item you purchased by mail, keep the gift card; you will be refunded the amount of the qualifying item reduced by the amount of the gift card. Offer expires 05\/24\/14 at 11:59pm PST.',
+         legalDisclaimer: 'Receive a $25 gift card when you buy a Ninja Professional Blender with single serve blending cups or a Ninja MEGA Kitchen System. Not valid on previous orders. On your order summary, the item subtotal will reflect the price of the qualifying item plus the amount of the free gift card, followed by a discount given for the amount of the free gift card. &nbsp;Your price on the order summary will be the price of the qualifying item (the total charges for the qualifying item and gift card). &nbsp;Your account will actually be charged the amount of the qualifying item reduced by the amount of the gift card, and a separate charge for the amount of the gift card. The gift card will be sent to the same address as your order and will ship separately. If you want to return the item you purchased to a Target Store, you may either keep the gift card and just return the qualifying item (you will be refunded the amount of the qualifying item reduced by the amount of the gift card), or you can return the qualifying item and the gift card &nbsp;for a full refund using the online receipt. If you return the item you purchased by mail, keep the gift card; you will be refunded the amount of the qualifying item reduced by the amount of the gift card. Offer expires 05/24/14 at 11:59pm PST.',
          shortDescription: '$25 gift card with purchase of a select Ninja Blender',
         },
        ],
@@ -540,7 +540,7 @@ const DefaultState = {
          user: 'Best Guest',
         },
        ],
-       legalCopy: 'refund\/exchange policy<br\/><br\/><p style=\'font-size:13px;\'>Most unopened items in new condition returned within 90 days will receive a refund or exchange. Some items have a modified return policy that is less than 90 days.&nbsp;Those items will either show a \'return by\' date or \'return within\' day range under the item on your receipt or packing slip and in the \'Item details, shipping\' tab if purchased on Target.com. Items that are opened or damaged or do not have a packing slip or receipt may be denied a refund or exchange. All bundled items must be returned with all components for a full refund. Bundle components may not all have the same return policy; please check your packing slip for details.&nbsp; Some items, such as gift cards, digital items&nbsp;are never returnable.&nbsp;<br \/><br \/>See the <a href=\'http:\/\/www.target.com\/HelpContent?help=\/sites\/html\/TargetOnline\/help\/returns_and_refunds\/returns_and_refunds.html\'>Target return policy<\/a> for complete information.<\/p><br\/>'
+       legalCopy: 'refund/exchange policy<br/><br/><p style="font-size:13px;">Most unopened items in new condition returned within 90 days will receive a refund or exchange. Some items have a modified return policy that is less than 90 days.&nbsp;Those items will either show a "return by" date or "return within" day range under the item on your receipt or packing slip and in the "Item details, shipping" tab if purchased on Target.com. Items that are opened or damaged or do not have a packing slip or receipt may be denied a refund or exchange. All bundled items must be returned with all components for a full refund. Bundle components may not all have the same return policy; please check your packing slip for details.&nbsp; Some items, such as gift cards, digital items&nbsp;are never returnable.&nbsp;<br /><br />See the <a href="http://www.target.com/HelpContent?help=/sites/html/TargetOnline/help/returns_and_refunds/returns_and_refunds.html">Target return policy</a> for complete information.</p><br/>'
       },
      ],
      UPC: '622356532099',
@@ -565,7 +565,8 @@ const DefaultState = {
      title: 'Ninja\u2122 Professional Blender with Single Serve Blending Cups',
      webclass: 'Small Appliances',
     },
-   ]
+  ],
+  currentImage: 0,
 }
 
 export { DefaultState }
