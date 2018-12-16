@@ -4,6 +4,11 @@ import { connect } from 'react-redux'
 import { withStyles } from '@material-ui/core/styles'
 import { DefaultState } from './Components/ItemOrderData'
 import styles from './theme'
+import ImageSectionContainer from './Components/ImageSectionContainer'
+import ReviewSectionContainer from './Components/ReviewSectionContainer'
+import {
+  Grid,
+} from '@material-ui/core'
 
 class ItemOrder extends React.Component {
   constructor () {
@@ -13,7 +18,14 @@ class ItemOrder extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <div>Hello</div>
+        <Grid container direction="row">
+          <Grid container justify="flex-end" alignItems="center" lg={6} md={6} sm={12}>
+              <ImageSectionContainer />
+          </Grid>
+          <Grid item lg={6} md={6} sm={12}>
+            <ReviewSectionContainer />
+          </Grid>
+        </Grid>
       </React.Fragment>
     )
   }

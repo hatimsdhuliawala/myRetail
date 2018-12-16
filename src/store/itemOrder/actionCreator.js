@@ -1,31 +1,12 @@
-/* global _ */
 import {
-  REQUEST_DATA,
-  RECEIVE_DATA,
+  SET_CURRENT_IMAGE,
 } from './actionType'
 
-
-export function successRequestDataEvent (data, json, totalPages, totalElements) {
+export function setCurrentImage(image) {
   return {
-    type: RECEIVE_DATA,
+    type: SET_CURRENT_IMAGE,
     payload: {
-      isFetching: false,
-      copyData: json,
-      totalPages: totalPages,
-      totalElements: totalElements,
-    },
-  }
-}
-
-export function dispatchRequestCopyDataEvent (data) {
-  var newCopyData = _.cloneDeep(data)
-  newCopyData.splice(0, newCopyData.length)
-  return {
-    type: REQUEST_DATA,
-    payload: {
-      isFetching: true,
-      copyData: newCopyData,
-      selectedCopy: [],
+      currentImage: image,
     },
   }
 }
