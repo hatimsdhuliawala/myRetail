@@ -1,1 +1,2 @@
 export const SET_CURRENT_IMAGE = 'SET_CURRENT_IMAGE'
+export const SET_QUANTITY = 'SET_QUANTITY'

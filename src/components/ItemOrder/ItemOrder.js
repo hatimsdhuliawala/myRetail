@@ -6,6 +6,7 @@ import { DefaultState } from './Components/ItemOrderData'
 import styles from './theme'
 import ImageSectionContainer from './Components/ImageSectionContainer'
 import ReviewSectionContainer from './Components/ReviewSectionContainer'
+import ProductDetailContainer from './Components/ProductDetailContainer'
 import {
   Grid,
 } from '@material-ui/core'
@@ -17,16 +18,20 @@ class ItemOrder extends React.Component {
   }
   render () {
     return (
-      <React.Fragment>
-        <Grid container direction="row">
-          <Grid container justify="flex-end" alignItems="center" lg={6} md={6} sm={12}>
+      <Grid container justify="center" alignItems="flex-start">
+        <Grid container direction="row" justify="center" alignItems="flex-start" style={{width: '950px'}}>
+          <Grid container item justify="center" alignItems="center" lg={6} md={6} sm={12}>
               <ImageSectionContainer />
           </Grid>
-          <Grid item lg={6} md={6} sm={12}>
+          <Grid item justify="center" container alignItems="center" lg={6} md={6} sm={12}>
+            <ProductDetailContainer />
+          </Grid>
+          <Grid item justify="center" container alignItems="center" lg={6} md={6} sm={12}>
             <ReviewSectionContainer />
           </Grid>
+          <Grid item justify="center" container alignItems="center" lg={6} md={6} sm={12} />
         </Grid>
-      </React.Fragment>
+      </Grid>
     )
   }
 }
