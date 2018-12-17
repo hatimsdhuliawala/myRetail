@@ -200,6 +200,23 @@ const styles = theme => ({
     fontSize: '13px',
     paddingBottom: '3px',
   },
+  dialogBox: {
+    minWidth: '100% !important',
+    minHeight: '100% !important',
+  },
+  viewLarger: {
+    cursor: 'pointer',
+    fontFamily: 'Helvetica',
+    fontWeight: '400',
+    fontStyle: 'normal',
+    fontSize: '10px',
+    color: 'rgba(100, 100, 100, 0.7)',
+  },
+  viewLargerIcon: {
+    cursor: 'pointer',
+    color: 'rgba(100, 100, 100, 0.7)',
+    fontSize: '18px',
+  },
 })
 
 export default styles

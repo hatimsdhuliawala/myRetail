@@ -568,6 +568,7 @@ const DefaultState = {
   ],
   currentImage: 0,
   itemQuantity: 1,
+  largerImage: false,
 }
 
 export { DefaultState }

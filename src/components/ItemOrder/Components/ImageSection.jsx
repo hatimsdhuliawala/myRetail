@@ -6,16 +6,18 @@ import {
   Button,
 } from '@material-ui/core'
 import CircularProgress from '@material-ui/core/CircularProgress'
-import MobileStepper from "@material-ui/core/MobileStepper";
-import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
-import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
+import MobileStepper from "@material-ui/core/MobileStepper"
+import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft"
+import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight"
+import DialogBoxLargerImageContainer from './DialogBoxLargerImageContainer'
+import ZoomIn from "@material-ui/icons/ZoomIn"
 
 function escapeHtml (input) {
   return { __html: input }
 }
 
 function ImageSection (props) {
-  const { itemOrder, currentImage, handleBack, handleNext, classes} = props
+  const { itemOrder, currentImage, handleBack, handleNext, closeImage, classes} = props
   return (
     <Grid item container direction="column" justify="center" style={{width: '450px'}}>
       { currentImage === null
@@ -31,6 +33,10 @@ function ImageSection (props) {
                 : <img src={itemOrder.Images[0].AlternateImages[currentImage - 1].image} alt={itemOrder.Images[0].AlternateImages[currentImage-1].image} />
               }
             </Grid>
+            <Grid item xs={12} container justify="center" alignItems="center">
+              <ZoomIn className={classes.viewLargerIcon} onClick={() => closeImage(true)}/>
+              <span className={classes.viewLarger} onClick={() => closeImage(true)}>View Larger</span></Grid>
+            <DialogBoxLargerImageContainer />
             <Grid>
             <MobileStepper className={classes.stepperWidth}
               steps={Number.parseInt(itemOrder.Images[0].imageCount)}

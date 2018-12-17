@@ -1,6 +1,7 @@
 import {
   SET_CURRENT_IMAGE,
   SET_QUANTITY,
+  SET_LARGE_IMAGE,
 } from './actionType'
 
 export function setCurrentImage(image) {
@@ -17,6 +18,15 @@ export function setQuantity(value) {
     type: SET_QUANTITY,
     payload: {
       itemQuantity: value,
+    },
+  }
+}
+
+export function closeImage(value) {
+  return {
+    type: SET_LARGE_IMAGE,
+    payload: {
+      largerImage: value,
     },
   }
 }

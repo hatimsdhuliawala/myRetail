@@ -5,7 +5,8 @@ import styles from '../theme'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import {
-  setCurrentImage
+  setCurrentImage,
+  closeImage,
 } from '../../../store/itemOrder/actionCreator'
 
 class ImageSectionContainer extends React.Component {
@@ -21,7 +22,9 @@ class ImageSectionContainer extends React.Component {
   handleBack = () => {
     this.props.setCurrentImage(-1)
   }
-
+  closeImage = (value) => {
+    this.props.closeImage(value)
+  }
   render () {
     return (
       <ImageSection
@@ -29,6 +32,7 @@ class ImageSectionContainer extends React.Component {
         currentImage={this.props.currentImage}
         handleBack={this.handleBack}
         handleNext={this.handleNext}
+        closeImage={this.closeImage}
       />
     )
   }
@@ -37,6 +41,7 @@ class ImageSectionContainer extends React.Component {
 const mapDispatchToProps = dispatch =>
   bindActionCreators({
     setCurrentImage,
+    closeImage,
   }, dispatch)
 
 
@@ -46,11 +51,13 @@ const mapDispatchToProps = dispatch =>
     } = state
     const {
       currentImage,
-      CatalogEntryView
+      CatalogEntryView,
+      largerImage,
     } = itemOrder
     return {
       currentImage,
       CatalogEntryView,
+      largerImage,
     }
   }
 

@@ -23,7 +23,7 @@ function ProductDetail (props) {
           <hr className={classes.line} />
             {itemOrder.Promotions.map(promotion => {
               return (
-                <Grid item container directrion="row" justify="flex-start" alignItems="center">
+                <Grid item container directrion="row" justify="flex-start" alignItems="center" key={promotion.Description[0].shortDescription}>
                   <Label className={classes.promotionLabel} />
                   <span className={classes.promotionDesc}>{promotion.Description[0].shortDescription}</span>
                 </Grid>
@@ -71,9 +71,9 @@ function ProductDetail (props) {
         </Grid>
         {/* Return Section */}
         <Grid item container direction="row" justify="flex-start" alignItems="flex-start">
-          <span item className={classes.return}> returns </span>
-          <span item className={classes.returnSlash}> | </span>
-          <span item className={classes.returnText}>
+          <span className={classes.return}> returns </span>
+          <span className={classes.returnSlash}> | </span>
+          <span className={classes.returnText}>
             This item must be returned within 30 days of the ship date. See return policy for details. Prices, promotions, styles and availability may vary by store and online.
           </span>
         </Grid>
@@ -101,7 +101,7 @@ function ProductDetail (props) {
           <ul className={classes.listGroup}>
             {itemOrder.ItemDescription[0].features.map(item => {
               return (
-                <li className={classes.productHighlightList} dangerouslySetInnerHTML={escapeHtml(item)} />
+                <li className={classes.productHighlightList} dangerouslySetInnerHTML={escapeHtml(item)} key={item}/>
               )
             })}
           </ul>
